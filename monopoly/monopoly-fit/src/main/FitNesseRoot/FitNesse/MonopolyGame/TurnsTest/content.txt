@@ -1,0 +1,8 @@
+|import                   |
+|com.jpmorgan.ib.scpp.lasd|
+
+|monopoly fixture                                  |
+|number of robots|number of rounds|number of turns?|
+|2               |3               |6               |
+|3               |4               |12              |
+|6               |4               |24              |

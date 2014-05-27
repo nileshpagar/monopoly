@@ -1,0 +1,2 @@
+!3 [[Monopoly Fitnesse][.FitNesse.MonopolyGame]]
+!note Fitnesse Verion : ${FITNESSE_VERSION}
