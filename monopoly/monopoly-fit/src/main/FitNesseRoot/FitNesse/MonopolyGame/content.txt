@@ -3,4 +3,4 @@
 !define TEST_SYSTEM {slim}
 
 !path classes
-!path ${workspace.location}/monopoly/monopoly-fit/target/classes
+!path ${workspace.location}/target/classes

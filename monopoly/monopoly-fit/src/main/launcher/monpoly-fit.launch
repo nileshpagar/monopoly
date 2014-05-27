@@ -12,5 +12,5 @@
 <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-p 8081 -d src/main"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="monopoly-fit"/>
 <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
-<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dworkspace.location=${workspace_loc}"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dworkspace.location=${resource_loc}"/>
 </launchConfiguration>
