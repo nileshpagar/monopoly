@@ -1,7 +1,5 @@
 package com.jpmorgan.ib.scpp.lasd;
 
-import com.sun.xml.internal.bind.v2.TODO;
-
 public class MonopolyFixture {
 
 	private Integer numberOfRounds;
@@ -12,6 +10,7 @@ public class MonopolyFixture {
 	private String robotPosition;
 	private Integer diceTotal;
 	
+	private MonopolyGame monopolyGame;
 	
 	public String robotPosition() {
 		return "[R1=6, R2=0]";
