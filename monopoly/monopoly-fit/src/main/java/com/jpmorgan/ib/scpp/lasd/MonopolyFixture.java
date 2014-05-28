@@ -1,5 +1,7 @@
 package com.jpmorgan.ib.scpp.lasd;
 
+import com.sun.xml.internal.bind.v2.TODO;
+
 public class MonopolyFixture {
 
 	private Integer numberOfRounds;
@@ -28,7 +30,7 @@ public class MonopolyFixture {
 	}
 	
 	public void execute() {
-		numberOfTurns = numberOfRobots * numberOfRounds;
+    // TODO
 	}
 	
 	public Integer numberOfTurns() {
@@ -60,7 +62,5 @@ public class MonopolyFixture {
 	public void setDiceTotal(Integer diceTotal) {
 		this.diceTotal = diceTotal;
 	}
-	
-	
 	
 }
