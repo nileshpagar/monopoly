@@ -1,6 +1,6 @@
 This Fitnesse page tests for monopoly game. And covers scenarios like taking turns, rolling dices, next position of a robot, next round, game status etc.
 
-!img -w 400 -h 400 http://www.freewebs.com/brettmeyer/monopoly%20board.jpg
+!img -w 350 -h 350 http://www.freewebs.com/brettmeyer/monopoly%20board.jpg
 
 |import                   |
 |com.jpmorgan.ib.scpp.lasd|

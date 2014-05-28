@@ -14,7 +14,7 @@ public class MonopolyGame {
 	
 	public List<Integer> getRobotNextPositions(Integer whoseTurn, List<Integer> currentPositions, Integer diceTotal){
 		return null;
-	}
+	}	
 	
 	public Integer whoseNextTurn(Integer whoseTurn){
 		return null;

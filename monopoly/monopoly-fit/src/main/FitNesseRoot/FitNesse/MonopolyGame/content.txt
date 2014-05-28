@@ -3,4 +3,6 @@
 !define TEST_SYSTEM {slim}
 
 !path classes
-!path ${workspace.location}/target/classes
+!path ${workspace.location}/../monopoly-model/target/classes
+!path ${workspace.location}/../monopoly-game/target/classes
+!path ${workspace.location}/../monopoly-fit/target/classes
