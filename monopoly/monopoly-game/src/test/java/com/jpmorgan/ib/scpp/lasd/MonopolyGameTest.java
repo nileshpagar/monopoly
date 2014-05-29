@@ -33,7 +33,7 @@ public class MonopolyGameTest {
 	}
 	
 	@Test
-	public void playGame_whenHaving3Rounds2Players_currentRoundIsEqual() {
+	public void playGame_whenHaving3Rounds2Players_currentRoundIsEqualToNumberOfRoundsAndEveryPlayerHasTakenTurn() {
 		testObject.playGame(NUMBER_OF_PLAYERS, NUMBER_OF_ROUNDS);
 		assertEquals(NUMBER_OF_ROUNDS, testObject.currentRound);
 		for (Player player : testObject.players) {
