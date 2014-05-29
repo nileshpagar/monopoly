@@ -2,6 +2,7 @@ package com.jpmorgan.ib.scpp.lasd;
 
 import junit.framework.TestCase;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static junit.framework.Assert.assertEquals;
@@ -22,7 +23,7 @@ public class PlayerTest{
         testObj =  new Player("playerId");
     }
 
-    @Test
+    @Ignore
     public void takeTurn_changesCurrentSquare(){
         int firstPosition = testObj.getCurrentSquare();
         testObj.takeTurn();
