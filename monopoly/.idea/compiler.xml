@@ -22,8 +22,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="monopoly-core" />
         <module name="monopoly-fit" />
+        <module name="monopoly-game" />
         <module name="monopoly-model" />
       </profile>
     </annotationProcessing>

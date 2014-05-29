@@ -10,7 +10,7 @@
   	<module>monopoly-parent</module>
 	<module>monopoly-model</module>
 	<module>monopoly-fit</module>
-      <module>monopoly-core</module>
+      <module>monopoly-game</module>
   </modules>
   
   <packaging>pom</packaging>
