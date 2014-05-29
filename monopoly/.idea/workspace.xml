@@ -39,12 +39,12 @@
       <file leaf-file-name="PlayerTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/PlayerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="630">
-              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="660">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#303#304#0" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,14 +60,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Player.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Player.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/monopoly-game/src/main/java/com/jpmorgan/ib/scpp/lasd/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25906736" vertical-offset="150" max-vertical-offset="825">
-              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="21" />
               <folding>
                 <element signature="e#215#216#0" expanded="true" />
                 <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
                 <element signature="e#377#378#0" expanded="true" />
                 <element signature="e#698#699#0" expanded="true" />
                 <element signature="e#752#753#0" expanded="true" />
@@ -85,23 +86,22 @@
       <file leaf-file-name="Board.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/monopoly-game/src/main/java/com/jpmorgan/ib/scpp/lasd/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
               <folding>
-                <element signature="e#121#122#0" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
+                <element signature="e#122#123#0" expanded="true" />
+                <element signature="e#176#177#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BoardTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BoardTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/BoardTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.77720207" vertical-offset="0" max-vertical-offset="579">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#303#304#0" expanded="true" />
@@ -167,10 +167,10 @@
         <option value="$PROJECT_DIR$/monopoly-game/pom.xml" />
         <option value="$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/DieTest.java" />
         <option value="$PROJECT_DIR$/monopoly-game/src/main/java/com/jpmorgan/ib/scpp/lasd/Die.java" />
-        <option value="$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/PlayerTest.java" />
-        <option value="$PROJECT_DIR$/monopoly-game/src/main/java/com/jpmorgan/ib/scpp/lasd/Board.java" />
         <option value="$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/BoardTest.java" />
         <option value="$PROJECT_DIR$/monopoly-game/src/main/java/com/jpmorgan/ib/scpp/lasd/Player.java" />
+        <option value="$PROJECT_DIR$/monopoly-game/src/main/java/com/jpmorgan/ib/scpp/lasd/Board.java" />
+        <option value="$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/PlayerTest.java" />
       </list>
     </option>
   </component>
@@ -849,52 +849,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/monopoly-game/src/main/java/com/jpmorgan/ib/scpp/lasd/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding>
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/BoardTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/PlayerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="630">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/monopoly-game/src/main/java/com/jpmorgan/ib/scpp/lasd/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25906736" vertical-offset="150" max-vertical-offset="825">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="21" />
           <folding>
             <element signature="e#215#216#0" expanded="true" />
             <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
             <element signature="e#377#378#0" expanded="true" />
             <element signature="e#698#699#0" expanded="true" />
             <element signature="e#752#753#0" expanded="true" />
@@ -904,6 +866,44 @@
             <element signature="e#886#887#0" expanded="true" />
             <element signature="e#927#928#0" expanded="true" />
             <element signature="e#961#962#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="660">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monopoly-game/src/main/java/com/jpmorgan/ib/scpp/lasd/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/BoardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.77720207" vertical-offset="0" max-vertical-offset="579">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -10,7 +10,7 @@ import static org.junit.Assert.assertNotEquals;
 public class PlayerTest{
 
     private Player testObj;
-
+    private int arbituaryNumberOfSquares = 40;
     @Test
     public void initialize(){
         assertEquals("playerId", testObj.getId());
@@ -18,7 +18,7 @@ public class PlayerTest{
 
     @Before
     public void setUp() {
-        int arbituaryNumberOfSquares = 40;
+
         testObj =  new Player("playerId");
         testObj.setDie1(new Die());
         testObj.setDie2(new Die());
@@ -33,4 +33,6 @@ public class PlayerTest{
 
         assertNotEquals(firstPosition, nextPosition);
     }
+
+
 }
