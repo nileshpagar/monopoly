@@ -2,3 +2,7 @@
 /.project
 /avengers
 /.settings
+.iws
+*/.idea/workspace.xml
+*/.idea/tasks.xml
+
