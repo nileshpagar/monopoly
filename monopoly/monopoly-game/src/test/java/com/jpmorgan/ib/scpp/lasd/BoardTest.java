@@ -1,32 +1,31 @@
 package com.jpmorgan.ib.scpp.lasd;
 
+import static org.junit.Assert.*;
+
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.fail;
-
 public class BoardTest {
 
-    private Board testObj = null;
-    int arbituaryNumberOfSquares = 40;
-
-    @Before
-    public void setUp(){
-       testObj = new Board(arbituaryNumberOfSquares);
-    }
-
-    @Test
-    public void initialize() {
-        assertEquals(arbituaryNumberOfSquares, testObj.numberOfSquares);
-    }
-
-	@Test
-	public void calculateNextSquare_WithCurrentSquareAndTotalDiceFaceValue() {
-        int diceTotal = 6;
-        int currentSquare = 0;
-        int nextSquare = testObj.calculateNextSquare(diceTotal,currentSquare);
-        assertEquals(diceTotal+currentSquare,nextSquare);
+	Board testObj; 
+	
+	@Before
+	public void setup(){
+		testObj = new Board(40); 
 	}
+	
+	@Test
+	public void initialize() {
+		assertEquals(40, testObj.squares.length);
+	}
+	
+	@Test
+	public void calculateNextSquare_WhenDieRolled(){
+		Square currentSquare = new Square(1);
+		int diceTotal = 2;
+		assertEquals(3, testObj.calculateNextSquare(diceTotal, currentSquare).getCurrentPosition() );
+	}
+	
+	
 
 }

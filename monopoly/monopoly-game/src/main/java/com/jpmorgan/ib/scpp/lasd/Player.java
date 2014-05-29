@@ -6,11 +6,12 @@ public class Player {
     private Die die1;
     private Die die2;
     private Board board;
-    int currentSquare = 1;
+    Square currentSquare;
 
 
     public Player(String playerId) {
         this.id = playerId;
+        this.currentSquare=new Square(1);
     }
 
     public String getId() {
@@ -18,7 +19,7 @@ public class Player {
 
     }
 
-    public int getCurrentSquare() {
+    public Square getCurrentSquare() {
         return currentSquare;
     }
 
