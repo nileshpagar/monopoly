@@ -2,14 +2,14 @@ package com.jpmorgan.ib.scpp.lasd;
 
 
 public class Player {
-    private String playerId;
+    private String id;
 
     public Player(String playerId) {
-        this.playerId = playerId;
+        this.id = playerId;
     }
 
     public String getId() {
-        return playerId;
+        return id;
 
     }
 }

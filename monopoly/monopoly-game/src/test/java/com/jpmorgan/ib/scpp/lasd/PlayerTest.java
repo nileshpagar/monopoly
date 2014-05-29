@@ -1,17 +1,27 @@
 package com.jpmorgan.ib.scpp.lasd;
 
 import junit.framework.TestCase;
+import org.junit.Before;
 import org.junit.Test;
 
 import static junit.framework.Assert.assertEquals;
 
 public class PlayerTest{
 
+    private Player testObj;
 
     @Test
     public void initialize(){
-        Player player = new Player("playerId");
-        assertEquals("playerId",player.getId());
+        assertEquals("playerId", testObj.getId());
     }
 
+    @Before
+    public void setUp() {
+        testObj =  new Player("playerId");
+    }
+
+    @Test
+    public void takeTurn_changesCurrentSquare(){
+        
+    }
 }
