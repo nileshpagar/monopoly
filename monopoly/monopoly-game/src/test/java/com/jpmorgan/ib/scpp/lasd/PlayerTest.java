@@ -25,7 +25,7 @@ public class PlayerTest{
         testObj.setDie2(new Die());
     }
 
-    
+
     @Ignore
     public void takeTurn_changesCurrentSquare(){
         int firstPosition = testObj.getCurrentSquare();
