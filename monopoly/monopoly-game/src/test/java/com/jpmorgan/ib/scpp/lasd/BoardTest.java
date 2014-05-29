@@ -7,23 +7,29 @@ import org.junit.Test;
 
 public class BoardTest {
 
+	private static final int TOTAL_SQUARES = 40;
 	Board testObj; 
 	
 	@Before
 	public void setup(){
-		testObj = new Board(40); 
+		testObj = new Board(TOTAL_SQUARES); 
 	}
 	
 	@Test
 	public void initialize() {
-		assertEquals(40, testObj.squares.length);
+		assertEquals(TOTAL_SQUARES, testObj.squares.length);
 	}
 	
 	@Test
 	public void calculateNextSquare_WhenDieRolled(){
-		Square currentSquare = new Square(1);
+		int currentSquarePosition = 1;
+		Square currentSquare = new Square(currentSquarePosition);
 		int diceTotal = 2;
-		assertEquals(3, testObj.calculateNextSquare(diceTotal, currentSquare).getCurrentPosition() );
+		
+		int nextSquarePosition = testObj.calculateNextSquare(diceTotal, currentSquare).getCurrentPosition();
+		
+		assertEquals(currentSquarePosition + diceTotal, 
+						nextSquarePosition );
 	}
 	
 	
