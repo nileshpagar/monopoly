@@ -2,15 +2,14 @@ package com.jpmorgan.ib.scpp.lasd;
 
 public class Square {
 	
-	
+	int currentPosition;
 
-	public Square() {
-		
+	public Square(int currentPosition) {
+		this.currentPosition = currentPosition;
 	}
 
 	public int getCurrentPosition() {
-		// TODO Auto-generated method stub
-		return 1;
+		return currentPosition;
 	}
 	
 	
