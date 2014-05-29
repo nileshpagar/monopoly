@@ -5,10 +5,13 @@ public class Player {
     private String id;
     private Die die1;
     private Die die2;
+    private Board board;
+    Square currentSquare;
 
 
     public Player(String playerId) {
         this.id = playerId;
+        this.currentSquare=new Square(1);
     }
 
     public String getId() {
@@ -16,8 +19,8 @@ public class Player {
 
     }
 
-    public int getCurrentSquare() {
-        return 1;
+    public Square getCurrentSquare() {
+        return currentSquare;
     }
 
     public void takeTurn() {
@@ -25,7 +28,7 @@ public class Player {
         die1.roll();
         die2.roll();
         int diceTotal = calculateDiceTotal(die1.getFaceValue(),die2.getFaceValue());
-
+        currentSquare = board.calculateNextSquare(diceTotal,currentSquare);
 
     }
 
@@ -39,5 +42,9 @@ public class Player {
 
     public void setDie2(Die die) {
         this.die2 = die;
+    }
+
+    public void setBoard(Board board) {
+        this.board = board;
     }
 }

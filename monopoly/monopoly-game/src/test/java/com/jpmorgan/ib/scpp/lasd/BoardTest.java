@@ -5,31 +5,25 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.fail;
-
 public class BoardTest {
 
 	Board testObj; 
 	
 	@Before
 	public void setup(){
-		testObj = new Board(); 
+		testObj = new Board(40); 
 	}
 	
 	@Test
 	public void initialize() {
-		assertEquals(Board.TOTAL_SQUARES, testObj.squares.length);
+		assertEquals(40, testObj.squares.length);
 	}
 	
 	@Test
-	public void calculateNextSquare_WhenTypical(){
-		int currentSquarePosition = 1;
-		Square currentSquare = new Square(currentSquarePosition);
+	public void calculateNextSquare_WhenDieRolled(){
+		Square currentSquare = new Square(1);
 		int diceTotal = 2;
-		
-		Square nextSquare = testObj.calculateNextSquare(diceTotal, currentSquare);
-		
-		assertEquals(3, nextSquare.getCurrentPosition() );
+		assertEquals(3, testObj.calculateNextSquare(diceTotal, currentSquare).getCurrentPosition() );
 	}
 	
 	
