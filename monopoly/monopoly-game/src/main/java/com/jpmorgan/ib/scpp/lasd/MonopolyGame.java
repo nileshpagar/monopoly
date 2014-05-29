@@ -13,6 +13,7 @@ public class MonopolyGame {
 	int currentRound;
 	private Die die1;
 	private Die die2;
+	boolean isGameOver = false;
 	
 	public void playGame(Integer numberOfPlayers, Integer numberOfRounds) {
 		this.numberOfRounds = numberOfRounds;
@@ -45,6 +46,7 @@ public class MonopolyGame {
 			}
 			roundsCompleted++;
 		}
+		isGameOver = true;
 	}
 		
 }

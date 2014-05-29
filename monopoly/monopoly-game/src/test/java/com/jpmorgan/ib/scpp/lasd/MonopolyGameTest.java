@@ -41,4 +41,10 @@ public class MonopolyGameTest {
 		}
 	}
 	
+	
+	@Test
+	public void playGame_whenHaving3Rounds2Players_isGameOver() {
+		testObject.playGame(NUMBER_OF_PLAYERS, NUMBER_OF_ROUNDS);
+		assertEquals(true, testObject.isGameOver);
+	}
 }
