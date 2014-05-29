@@ -21,7 +21,7 @@ public class MonopolyGameTest {
 		testObject.playGame(NUMBER_OF_PLAYERS, NUMBER_OF_ROUNDS);
 		assertEquals(NUMBER_OF_PLAYERS, testObject.players.size());
 		assertEquals(NUMBER_OF_ROUNDS, testObject.numberOfRounds);
-		assertNotNull(testObject.board);
+//		assertNotNull(testObject.board);
 	}
 
 }
