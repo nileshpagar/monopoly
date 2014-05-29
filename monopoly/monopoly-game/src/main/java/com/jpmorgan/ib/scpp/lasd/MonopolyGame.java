@@ -1,31 +1,28 @@
 package com.jpmorgan.ib.scpp.lasd;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class MonopolyGame {
 
-	private Integer numberOfRobots; 
-	private Integer numberOfRounds; 
+    int numberOfRounds; 
+	List<Player> players;
 	
-	public MonopolyGame(Integer numberOfRobots, Integer numberOfRounds) {
-		this.numberOfRobots = numberOfRobots;
+	public void playGame(Integer numberOfPlayers, Integer numberOfRounds) {
+		players = createPlayers(numberOfPlayers);
 		this.numberOfRounds = numberOfRounds;
 	}
 	
-	public List<Integer> getRobotNextPositions(Integer whoseTurn, List<Integer> currentPositions, Integer diceTotal){
-		return null;
-	}	
-	
-	public Integer whoseNextTurn(Integer whoseTurn){
-		return null;
+	private List<Player> createPlayers(Integer numberOfPlayers) {
+		List<Player> players = new ArrayList<Player>();
+		for (int i = 0; i < numberOfPlayers; i++) {
+			players.add(new Player(String.valueOf(i)));
+		}
+		return players;
 	}
 	
-	public Integer isGameOVer(Integer whoseTurn){
-		return null;
-	}
-
-	public int getNumberOfPlayers() {
-		return numberOfRobots;
+	public List<Player> getPlayers() {
+		return players;
 	}
 	
 }
