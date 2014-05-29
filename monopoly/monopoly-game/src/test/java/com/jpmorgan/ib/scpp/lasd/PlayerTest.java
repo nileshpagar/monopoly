@@ -21,8 +21,11 @@ public class PlayerTest{
     @Before
     public void setUp() {
         testObj =  new Player("playerId");
+        testObj.setDie1(new Die());
+        testObj.setDie2(new Die());
     }
 
+    
     @Ignore
     public void takeTurn_changesCurrentSquare(){
         int firstPosition = testObj.getCurrentSquare();
