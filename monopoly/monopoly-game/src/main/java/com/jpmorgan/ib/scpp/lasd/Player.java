@@ -3,12 +3,11 @@ package com.jpmorgan.ib.scpp.lasd;
 
 public class Player {
     private String id;
-    private Die die1;
-    private Die die2;
-    private Board board;
+    Die die1;
+    Die die2;
+    Board board;
     Square currentSquare;
 	int numberOfTurnsTaken;
-
 
     public Player(String playerId) {
         this.id = playerId;
@@ -17,7 +16,6 @@ public class Player {
 
     public String getId() {
         return id;
-
     }
 
     public Square getCurrentSquare() {
@@ -25,7 +23,6 @@ public class Player {
     }
 
     public void takeTurn() {
-
         die1.roll();
         die2.roll();
         int diceTotal = calculateDiceTotal(die1.getFaceValue(),die2.getFaceValue());

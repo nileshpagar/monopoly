@@ -2,8 +2,6 @@ package com.jpmorgan.ib.scpp.lasd;
 
 public class Board {
 
-
-
     Square squares[];
 
 	public Board(int numberOfSquares) {

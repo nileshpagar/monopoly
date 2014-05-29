@@ -19,32 +19,21 @@ public class MonopolyGameTest {
 	}
 
 	@Test
-	public void playGame_whenHaving3Rounds2Players_gameInitialized() {
+	public void playGame() {
+		
 		testObject.playGame(NUMBER_OF_PLAYERS, NUMBER_OF_ROUNDS);
+		
 		assertEquals(NUMBER_OF_PLAYERS, testObject.players.size());
 		assertEquals(NUMBER_OF_ROUNDS, testObject.numberOfRounds);
-		assertNotNull(testObject.board);
-	}
-	
-	@Test
-	public void playGame_whenHaving3Rounds2Players_roundsCompleted() {
-		testObject.playGame(NUMBER_OF_PLAYERS, NUMBER_OF_ROUNDS);
-		assertEquals(NUMBER_OF_ROUNDS, testObject.roundsCompleted);
-	}
-	
-	@Test
-	public void playGame_whenHaving3Rounds2Players_currentRoundIsEqualToNumberOfRoundsAndEveryPlayerHasTakenTurn() {
-		testObject.playGame(NUMBER_OF_PLAYERS, NUMBER_OF_ROUNDS);
-		assertEquals(NUMBER_OF_ROUNDS, testObject.currentRound);
+		assertNotNull(testObject.players.get(0).board);
+		assertNotNull(testObject.players.get(0).die1);
+		assertNotNull(testObject.players.get(0).die2);
+
 		for (Player player : testObject.players) {
 			assertEquals(NUMBER_OF_ROUNDS, player.numberOfTurnsTaken);
 		}
-	}
-	
-	
-	@Test
-	public void playGame_whenHaving3Rounds2Players_isGameOver() {
-		testObject.playGame(NUMBER_OF_PLAYERS, NUMBER_OF_ROUNDS);
+		
 		assertTrue(testObject.isGameOver);
 	}
+	
 }

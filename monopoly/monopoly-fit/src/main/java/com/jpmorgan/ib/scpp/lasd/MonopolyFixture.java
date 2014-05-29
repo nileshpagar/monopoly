@@ -9,8 +9,11 @@ public class MonopolyFixture {
 	private String whoseTurn;
 	private String robotPosition;
 	private Integer diceTotal;
-	
 	private MonopolyGame monopolyGame;
+
+	public MonopolyFixture() {
+		MonopolyGame monopolyGame = new MonopolyGame();
+	}
 	
 	public String robotPosition() {
 		return "[R1=6, R2=0]";
