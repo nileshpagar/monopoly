@@ -3,12 +3,10 @@ package com.jpmorgan.ib.scpp.lasd;
 import org.junit.Before;
 import org.junit.Test;
 
-import static junit.framework.Assert.assertEquals;
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-/**
- * Created by selvakumaresra on 5/29/14.
- */
+
 public class DieTest {
     private Die testObj;
 
@@ -18,9 +16,25 @@ public class DieTest {
         assertTrue(testObj.getFaceValue()<= Die.MAX_FACEVALUE);
     }
 
+
+
     @Before
     public void setUp() {
         testObj =  new Die();
+    }
+
+    @Test
+    public void roll_whenTypical(){
+        int totalRollCount = 600000;
+        int[] totalRolls = new int[Die.MAX_FACEVALUE];
+        for (int counter = 0; counter < totalRollCount; counter++) {
+            testObj.roll();
+            totalRolls[testObj.getFaceValue()-1] =  totalRolls[testObj.getFaceValue()-1] +1;
+        }
+        for (int counter = 0; counter < Die.MAX_FACEVALUE; counter++) {
+            assertEquals(totalRollCount/Die.MAX_FACEVALUE,
+                    totalRolls[counter],totalRollCount/Die.MAX_FACEVALUE*0.1);
+        }
     }
 
 }

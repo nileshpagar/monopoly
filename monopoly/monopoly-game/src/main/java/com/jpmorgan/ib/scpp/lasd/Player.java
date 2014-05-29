@@ -24,9 +24,13 @@ public class Player {
 
         die1.roll();
         die2.roll();
-        int totalFaceValue = die1.getFaceValue()+die2.getFaceValue();
+        int diceTotal = calculateDiceTotal(die1.getFaceValue(),die2.getFaceValue());
 
 
+    }
+
+    private int calculateDiceTotal(int faceValueOfDie1, int faceValueOfDie2) {
+        return faceValueOfDie1+faceValueOfDie2;
     }
 
     public void setDie1(Die die) {
