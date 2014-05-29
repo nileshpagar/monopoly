@@ -32,6 +32,18 @@ public class BoardTest {
 						nextSquarePosition );
 	}
 	
-	
+	@Test
+    public void calculateNextSquare_WhenStepOverflows_ShouldGoBackToBeginning(){
+        int stepsBeforeEnd = 3;
+        int currentSquarePosition = TOTAL_SQUARES - stepsBeforeEnd;
+        int diceTotal = 5;
+
+        Square currentSquare = new Square(currentSquarePosition);
+
+        int nextSquarePosition = testObj.calculateNextSquare(diceTotal, currentSquare).getCurrentPosition();
+
+        assertEquals((currentSquarePosition + diceTotal) % TOTAL_SQUARES,
+                nextSquarePosition );
+    }
 
 }
