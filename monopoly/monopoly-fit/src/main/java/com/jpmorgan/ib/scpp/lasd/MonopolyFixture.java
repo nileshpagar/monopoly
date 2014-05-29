@@ -10,6 +10,7 @@ public class MonopolyFixture {
 	private String robotPosition;
 	private Integer diceTotal;
 	
+	private MonopolyGame monopolyGame;
 	
 	public String robotPosition() {
 		return "[R1=6, R2=0]";
@@ -28,7 +29,7 @@ public class MonopolyFixture {
 	}
 	
 	public void execute() {
-		numberOfTurns = numberOfRobots * numberOfRounds;
+    // TODO
 	}
 	
 	public Integer numberOfTurns() {
@@ -60,7 +61,5 @@ public class MonopolyFixture {
 	public void setDiceTotal(Integer diceTotal) {
 		this.diceTotal = diceTotal;
 	}
-	
-	
 	
 }

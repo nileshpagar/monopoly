@@ -1,0 +1,8 @@
+
+!3 !-slim:fitnesse.slim.SlimService-!
+|'''Date: '''| 11:08:04 AM (SGT) on Wednesday, May 28, 2014 |
+|'''Test Page: '''|.FitNesse.MonopolyGame.PlayMonopolyGame|
+|'''Command: '''| !-java -cp /Users/nileshpagar/.m2/repository/org/fitnesse/fitnesse/20140418/fitnesse-20140418.jar:classes:/Users/nileshpagar/tmp/avengers/monopoly/monopoly-fit/target/classes fitnesse.slim.SlimService  8085-! |
+|'''Exit code: '''| 0 |
+|'''Time elapsed: '''| 0.453 seconds |
+
