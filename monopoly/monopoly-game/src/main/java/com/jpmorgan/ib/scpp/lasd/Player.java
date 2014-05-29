@@ -12,4 +12,12 @@ public class Player {
         return id;
 
     }
+
+    public int getCurrentSquare() {
+        return 1;
+    }
+
+    public void takeTurn() {
+
+    }
 }

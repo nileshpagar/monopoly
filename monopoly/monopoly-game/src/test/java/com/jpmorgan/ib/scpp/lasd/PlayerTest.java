@@ -5,6 +5,8 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static junit.framework.Assert.assertEquals;
+import static junit.framework.Assert.assertNotSame;
+import static org.junit.Assert.assertNotEquals;
 
 public class PlayerTest{
 
@@ -22,6 +24,9 @@ public class PlayerTest{
 
     @Test
     public void takeTurn_changesCurrentSquare(){
-        
+        int firstPosition = testObj.getCurrentSquare();
+        testObj.takeTurn();
+        int nextPosition = testObj.getCurrentSquare();
+        assertNotEquals(firstPosition, nextPosition);
     }
 }
