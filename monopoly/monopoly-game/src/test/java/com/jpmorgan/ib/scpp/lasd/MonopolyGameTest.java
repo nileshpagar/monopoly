@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
-
+import static org.junit.Assert.assertTrue;
 
 public class MonopolyGameTest {
 
@@ -45,6 +45,6 @@ public class MonopolyGameTest {
 	@Test
 	public void playGame_whenHaving3Rounds2Players_isGameOver() {
 		testObject.playGame(NUMBER_OF_PLAYERS, NUMBER_OF_ROUNDS);
-		assertEquals(true, testObject.isGameOver);
+		assertTrue(testObject.isGameOver);
 	}
 }
