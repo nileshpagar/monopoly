@@ -4,7 +4,7 @@ public class MonopolyFixture {
 
 	private Integer numberOfRounds;
 	private Integer numberOfRobots;
-	private Integer numberOfTurns;
+	private Integer numberOfTurns = 0;
 	private Integer currentRound;
 	private String whoseTurn;
 	private String robotPosition;
