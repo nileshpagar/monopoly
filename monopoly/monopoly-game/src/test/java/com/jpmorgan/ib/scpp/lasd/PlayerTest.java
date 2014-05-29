@@ -18,14 +18,19 @@ public class PlayerTest{
 
     @Before
     public void setUp() {
+        int arbituaryNumberOfSquares = 40;
         testObj =  new Player("playerId");
+        testObj.setDie1(new Die());
+        testObj.setDie2(new Die());
+        testObj.setBoard(new Board(arbituaryNumberOfSquares));
     }
 
-    @Ignore
+    @Test
     public void takeTurn_changesCurrentSquare(){
         int firstPosition = testObj.getCurrentSquare();
         testObj.takeTurn();
         int nextPosition = testObj.getCurrentSquare();
+
         assertNotEquals(firstPosition, nextPosition);
     }
 }
