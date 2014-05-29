@@ -23,5 +23,9 @@ public class MonopolyGame {
 	public Integer isGameOVer(Integer whoseTurn){
 		return null;
 	}
+
+	public int getNumberOfPlayers() {
+		return numberOfRobots;
+	}
 	
 }
