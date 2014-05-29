@@ -4,6 +4,8 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+
 
 public class MonopolyGameTest {
 
@@ -17,11 +19,26 @@ public class MonopolyGameTest {
 	}
 
 	@Test
-	public void playGame_WhenTypical() {
+	public void playGame_whenHaving3Rounds2Players_gameInitialized() {
 		testObject.playGame(NUMBER_OF_PLAYERS, NUMBER_OF_ROUNDS);
 		assertEquals(NUMBER_OF_PLAYERS, testObject.players.size());
 		assertEquals(NUMBER_OF_ROUNDS, testObject.numberOfRounds);
-//		assertNotNull(testObject.board);
+		assertNotNull(testObject.board);
 	}
-
+	
+	@Test
+	public void playGame_whenHaving3Rounds2Players_roundsCompleted() {
+		testObject.playGame(NUMBER_OF_PLAYERS, NUMBER_OF_ROUNDS);
+		assertEquals(NUMBER_OF_ROUNDS, testObject.roundsCompleted);
+	}
+	
+	@Test
+	public void playGame_whenHaving3Rounds2Players_currentRoundIsEqual() {
+		testObject.playGame(NUMBER_OF_PLAYERS, NUMBER_OF_ROUNDS);
+		assertEquals(NUMBER_OF_ROUNDS, testObject.currentRound);
+		for (Player player : testObject.players) {
+			assertEquals(NUMBER_OF_ROUNDS, player.numberOfTurnsTaken);
+		}
+	}
+	
 }

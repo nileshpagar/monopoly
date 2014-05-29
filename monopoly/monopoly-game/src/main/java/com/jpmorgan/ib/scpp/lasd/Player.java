@@ -7,6 +7,7 @@ public class Player {
     private Die die2;
     private Board board;
     Square currentSquare;
+	int numberOfTurnsTaken;
 
 
     public Player(String playerId) {
@@ -29,7 +30,7 @@ public class Player {
         die2.roll();
         int diceTotal = calculateDiceTotal(die1.getFaceValue(),die2.getFaceValue());
         currentSquare = board.calculateNextSquare(diceTotal,currentSquare);
-
+        numberOfTurnsTaken++;
     }
 
     private int calculateDiceTotal(int faceValueOfDie1, int faceValueOfDie2) {
