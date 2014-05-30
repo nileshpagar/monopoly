@@ -12,6 +12,9 @@ public class MonopolyFixture {
 	private MonopolyGame monopolyGame;
 
 	public MonopolyFixture() {
+		if(diceTotal != 0){
+			
+		}
 		MonopolyGame monopolyGame = new MonopolyGame();
 	}
 	

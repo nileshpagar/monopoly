@@ -5,7 +5,7 @@ import java.util.List;
 
 public class MonopolyGame {
 
-    private static final int DEFAULT_NUMBER_OF_SQUARES = 40;
+    static final int DEFAULT_NUMBER_OF_SQUARES = 40;
 	int numberOfRounds; 
 	List<Player> players;
 	boolean isGameOver = false;
@@ -28,7 +28,7 @@ public class MonopolyGame {
 		return players;
 	}
 	
-	private void playRound() {
+	protected void playRound() {
 		for (int i = 0; i < numberOfRounds; i++) {
 			for (int j = 0; j < players.size(); j++) {
 				players.get(j).takeTurn();

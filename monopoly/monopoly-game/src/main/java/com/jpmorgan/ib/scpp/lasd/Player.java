@@ -1,7 +1,7 @@
 package com.jpmorgan.ib.scpp.lasd;
 
-
 public class Player {
+	
     private String id;
     Die die1;
     Die die2;

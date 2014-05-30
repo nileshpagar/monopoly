@@ -12,6 +12,8 @@ public class Square {
 		return currentPosition;
 	}
 	
-	
+	public Player landsOn(Player player){
+		return player;
+	}
 
 }
