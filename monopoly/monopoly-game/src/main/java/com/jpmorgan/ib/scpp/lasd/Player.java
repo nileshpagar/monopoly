@@ -31,12 +31,16 @@ public class Player {
     }
 
     public void takeTurn() {
-        die1.roll();
-        die2.roll();
+        rollDie();
         int diceTotal = calculateDiceTotal(die1.getFaceValue(),die2.getFaceValue());
         currentSquare = board.calculateNextSquare(diceTotal, currentSquare);
         numberOfTurnsTaken++;
     }
+
+	private void rollDie() {
+		die1.roll();
+        die2.roll();
+	}
 
     private int calculateDiceTotal(int faceValueOfDie1, int faceValueOfDie2) {
         return faceValueOfDie1+faceValueOfDie2;
