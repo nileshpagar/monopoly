@@ -31,7 +31,9 @@ public class Player {
     }
 
     public void takeTurn() {
-        rollDie();
+    	if ( ! (this.getCurrentSquare() instanceof JailSquare)) {
+			rollDie();
+		}
         int diceTotal = calculateDiceTotal(die1.getFaceValue(),die2.getFaceValue());
         currentSquare = board.calculateNextSquare(diceTotal, currentSquare);
         numberOfTurnsTaken++;
