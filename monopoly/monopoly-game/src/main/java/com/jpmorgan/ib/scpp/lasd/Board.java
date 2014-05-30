@@ -11,7 +11,7 @@ public class Board {
 		}
 	}
 	
-	public DoNothingSquare calculateNextSquare(int diceTotal, DoNothingSquare currentDoNothingSquare) {
+	public DoNothingSquare calculateNextSquare(int diceTotal, Square currentDoNothingSquare) {
 		return doNothingSquares[ ( currentDoNothingSquare.getCurrentPosition() + diceTotal - 1) % doNothingSquares.length ];
 	}
 
