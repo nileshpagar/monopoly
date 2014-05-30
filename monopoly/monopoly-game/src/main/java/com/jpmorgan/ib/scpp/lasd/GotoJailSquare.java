@@ -10,7 +10,7 @@ public class GotoJailSquare implements Square {
 	
 	@Override
 	public void landsOn(Player player) {
-//		player.setCurrentSquare(new GotoJailSquare(SquareNumber.JAIL.position));
+		player.setCurrentSquare(new GotoJailSquare(SquareNumber.JAIL.position));
 	}
 
 	@Override
