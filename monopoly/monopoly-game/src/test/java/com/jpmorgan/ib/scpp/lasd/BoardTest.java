@@ -2,6 +2,7 @@ package com.jpmorgan.ib.scpp.lasd;
 
 import static org.junit.Assert.*;
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -17,7 +18,27 @@ public class BoardTest {
 	
 	@Test
 	public void initialize() {
-		assertEquals(TOTAL_SQUARES, testObj.doNothingSquares.length);
+		assertEquals(TOTAL_SQUARES, testObj.squares.length);
+		for(int i = 0; i < testObj.squares.length; ++i) {
+			Square square = testObj.squares[i];
+			switch(i+1) {
+			case 0:
+				Assert.assertEquals(GoSquare.class, square.getClass() );
+				break;
+			case 5:
+				Assert.assertEquals(GoSquare.class, square.getClass() );
+				break;
+			case 10:
+				Assert.assertEquals(JailSquare.class, square.getClass() );
+				break;
+			case 30:
+				Assert.assertEquals(GotoJailSquare.class, square.getClass() );
+				break;
+			default:
+				Assert.assertEquals(DoNothingSquare.class, square.getClass() );	
+				break;
+			}
+		}
 	}
 	
 	@Test

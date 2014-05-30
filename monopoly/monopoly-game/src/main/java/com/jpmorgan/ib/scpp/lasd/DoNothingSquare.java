@@ -12,7 +12,6 @@ public class DoNothingSquare implements Square{
 		return currentPosition;
 	}
 
-    @Override
     public void landsOn(Player player) {
 
     }
