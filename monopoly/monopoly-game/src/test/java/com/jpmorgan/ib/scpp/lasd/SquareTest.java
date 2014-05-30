@@ -18,7 +18,7 @@ public class SquareTest {
 	
 	@Test
 	public void initialize() {
-		assertEquals(ARBITRARY_SQUARE_POSITION, testObj.getCurrentPosition());
+		assertEquals(ARBITRARY_SQUARE_POSITION, testObj.getPosition());
 	}
 
 }

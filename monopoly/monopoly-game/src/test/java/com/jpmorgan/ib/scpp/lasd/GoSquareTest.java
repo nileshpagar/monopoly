@@ -10,12 +10,16 @@ public class GoSquareTest {
     public void landOn_whenPlayerOnGoSquare_getCash(){
         GoSquare testObject = new GoSquare();
 
-        assertEquals(GoSquare.GO_SQUARE_POSITION,testObject.getCurrentPosition());
+        assertEquals(GoSquare.GO_SQUARE_POSITION,testObject.getPosition());
+
         Player player = new Player("ARBITRARY_PLAYER_ID");
+        player.setCurrentSquare(new DoNothingSquare(0));
         int currentCash = player.getCash();
+        Square currentSquare = player.currentSquare;
         testObject.landsOn(player);
-        int cashOnGoSquare = 200;
-        assertEquals(currentCash + cashOnGoSquare, player.getCash());
+
+        assertEquals(currentCash + GoSquare.CASH_ON_SQUARE, player.getCash());
+        assertEquals(currentSquare.getPosition() + GoSquare.GO_SQUARE_POSITION, player.getCurrentSquare().getPosition());
 
     }
 
