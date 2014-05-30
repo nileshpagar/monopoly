@@ -1,8 +1,25 @@
 
 !3 !-slim:fitnesse.slim.SlimService-!
-|'''Date: '''| 11:08:04 AM (SGT) on Wednesday, May 28, 2014 |
+|'''Date: '''| 3:23:34 PM (SGT) on Friday, May 30, 2014 |
 |'''Test Page: '''|.FitNesse.MonopolyGame.PlayMonopolyGame|
-|'''Command: '''| !-java -cp /Users/nileshpagar/.m2/repository/org/fitnesse/fitnesse/20140418/fitnesse-20140418.jar:classes:/Users/nileshpagar/tmp/avengers/monopoly/monopoly-fit/target/classes fitnesse.slim.SlimService  8085-! |
-|'''Exit code: '''| 0 |
-|'''Time elapsed: '''| 0.453 seconds |
+|'''Command: '''| !-java -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000 -cp classes;target/classes;D:\Gokul\workspace\avengers\monopoly\monopoly-game\target\classes;D:\Gokul\workspace\avengers\monopoly\monopoly-fit\target\classes fitnesse.slim.SlimService  8087-! |
+|'''Exit code: '''| 1 |
+|'''Time elapsed: '''| 216.962 seconds |
 
+----
+'''Standard Output:'''
+{{{Listening for transport dt_socket at address: 8000
+Listening for transport dt_socket at address: 8000
+}}}
+----
+'''Standard Error:'''
+{{{java.lang.NoClassDefFoundError: fitnesse/slim/SlimService
+Caused by: java.lang.ClassNotFoundException: fitnesse.slim.SlimService
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+Could not find the main class: fitnesse.slim.SlimService.  Program will exit.
+Exception in thread "main" }}}

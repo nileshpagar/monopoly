@@ -2,10 +2,7 @@ This Fitnesse page tests for monopoly game. And covers scenarios like taking tur
 
 !img -w 350 -h 350 http://www.freewebs.com/brettmeyer/monopoly%20board.jpg
 
-|import                   |
-|com.jpmorgan.ib.scpp.lasd|
-
-|monopoly fixture                                                                                                                               |
+|com.jpmorgan.ib.scpp.lasd.MonopolyFixture|
 |number of robots|number of rounds|current round|whose turn|robot position|dice total|robot position?|whose turn next?|next round?|is game over?|
 |2               |3               |1            |R1        |[R1=0, R2=0]  |6         |[R1=6, R2=0]   |R2              |1          |N            |
 |6               |4               |1            |R1        |[R1=0, R2=0]  |6         |[R1=3, R2=3]   |R2              |2          |N            |

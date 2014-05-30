@@ -1,18 +1,41 @@
 package com.jpmorgan.ib.scpp.lasd;
 
+import org.junit.Assert;
+
 public class Board {
 
-    DoNothingSquare doNothingSquares[];
+    Square squares[];
 
 	public Board(int numberOfSquares) {
-		doNothingSquares = new DoNothingSquare[numberOfSquares];
-		for(int i = 0; i < doNothingSquares.length; ++i) {
-			doNothingSquares[i] = new DoNothingSquare(i+1);
-		}
+		squares = new Square[numberOfSquares];
+		createSquares();
 	}
 	
-	public DoNothingSquare calculateNextSquare(int diceTotal, Square currentDoNothingSquare) {
-		return doNothingSquares[ ( currentDoNothingSquare.getPosition() + diceTotal - 1) % doNothingSquares.length ];
+	private void createSquares() {
+		for(int i = 0; i < squares.length; ++i) {
+			switch(i+1) {
+			case 1:
+				squares[i] = new GoSquare();
+				break;
+			case 5:
+				squares[i] = new IncomeTaxSquare();
+				break;
+			case 10:
+				squares[i] = new JailSquare(10);
+				break;
+			case 30:
+				squares[i] = new GotoJailSquare(30);
+				break;
+			default:
+				squares[i] = new DoNothingSquare(i+1);	
+				break;
+			}
+		}
+		
+	}
+
+	public Square calculateNextSquare(int diceTotal, Square currentSquare) {
+		return squares[ ( currentSquare.getPosition() + diceTotal - 1) % squares.length ];
 	}
 
 
