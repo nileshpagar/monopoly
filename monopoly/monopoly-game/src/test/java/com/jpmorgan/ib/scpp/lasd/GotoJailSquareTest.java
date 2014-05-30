@@ -18,7 +18,7 @@ public class GotoJailSquareTest {
 	public void landsOn_() {
 		GotoJailSquare square = new GotoJailSquare(9);
 		square.landsOn(player);
-		assertEquals(SquareNumber.JAIL.position, player.currentSquare.getCurrentPosition());
+		assertEquals(SquareNumber.JAIL.position, player.currentSquare.getPosition());
 		assertEquals(GotoJailSquare.class, player.currentSquare.getClass());
 	}
 

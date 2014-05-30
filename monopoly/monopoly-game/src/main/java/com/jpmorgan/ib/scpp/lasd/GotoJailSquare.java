@@ -14,7 +14,7 @@ public class GotoJailSquare implements Square {
 	}
 
 	@Override
-	public int getCurrentPosition() {
+	public int getPosition() {
 		return currentPosition;
 	}
 
