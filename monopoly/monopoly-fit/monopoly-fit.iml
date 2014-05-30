@@ -22,6 +22,7 @@
     <orderEntry type="library" name="Maven: org.eclipse.jgit:org.eclipse.jgit:2.3.1.201302201838-r" level="project" />
     <orderEntry type="library" name="Maven: com.jcraft:jsch:0.1.46" level="project" />
     <orderEntry type="module" module-name="monopoly-game" />
+    <orderEntry type="module" module-name="monopoly-model" />
   </component>
 </module>
 
