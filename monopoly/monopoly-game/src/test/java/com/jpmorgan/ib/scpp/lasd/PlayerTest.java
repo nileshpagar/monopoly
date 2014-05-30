@@ -12,13 +12,17 @@ public class PlayerTest{
     private int arbituaryNumberOfSquares = 40;
     @Test
     public void initialize(){
+
         assertEquals("playerId", testObj.getId());
+        assertEquals(1500, testObj.getCurrentCash());
     }
 
     @Before
     public void setUp() {
 
         testObj =  new Player("playerId");
+        testObj.setCurrentCash(1500);
+        testObj.setCurrentSquare(new DoNothingSquare(0));
         testObj.setDie1(new Die());
         testObj.setDie2(new Die());
         testObj.setBoard(new Board(arbituaryNumberOfSquares));
@@ -26,9 +30,9 @@ public class PlayerTest{
 
     @Test
     public void takeTurn_changesCurrentSquare(){
-        int firstPosition = testObj.getCurrentSquare().getCurrentPosition();
+        int firstPosition = testObj.getCurrentSquare().getPosition();
         testObj.takeTurn();
-        int nextPosition = testObj.getCurrentSquare().getCurrentPosition();
+        int nextPosition = testObj.getCurrentSquare().getPosition();
 
         assertNotEquals(firstPosition, nextPosition);
     }

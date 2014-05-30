@@ -26,7 +26,7 @@ public class BoardTest {
 		DoNothingSquare currentDoNothingSquare = new DoNothingSquare(currentSquarePosition);
 		int diceTotal = 2;
 		
-		int nextSquarePosition = testObj.calculateNextSquare(diceTotal, currentDoNothingSquare).getCurrentPosition();
+		int nextSquarePosition = testObj.calculateNextSquare(diceTotal, currentDoNothingSquare).getPosition();
 		
 		assertEquals(currentSquarePosition + diceTotal,
 						nextSquarePosition );
@@ -39,7 +39,7 @@ public class BoardTest {
 
         DoNothingSquare currentDoNothingSquare = new DoNothingSquare(currentSquarePosition);
 
-        int nextSquarePosition = testObj.calculateNextSquare(diceTotal, currentDoNothingSquare).getCurrentPosition();
+        int nextSquarePosition = testObj.calculateNextSquare(diceTotal, currentDoNothingSquare).getPosition();
 
         assertEquals((currentSquarePosition + diceTotal) % TOTAL_SQUARES,
                 nextSquarePosition );

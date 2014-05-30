@@ -20,6 +20,7 @@ public class MonopolyGame {
 		List<Player> players = new ArrayList<Player>();
 		for (int i = 0; i < numberOfPlayers; i++) {
 			Player player = new Player("Player" + String.valueOf(i));
+            player.setCurrentSquare(new GoSquare());
 			player.setBoard(new Board(DEFAULT_NUMBER_OF_SQUARES));
 			player.setDie1(new Die());
 			player.setDie2(new Die());

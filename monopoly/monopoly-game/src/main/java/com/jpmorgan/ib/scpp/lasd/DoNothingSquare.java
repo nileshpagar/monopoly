@@ -8,7 +8,7 @@ public class DoNothingSquare implements Square{
 		this.currentPosition = currentPosition;
 	}
 
-	public int getCurrentPosition() {
+	public int getPosition() {
 		return currentPosition;
 	}
 
