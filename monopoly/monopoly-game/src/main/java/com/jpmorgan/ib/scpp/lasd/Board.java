@@ -2,17 +2,17 @@ package com.jpmorgan.ib.scpp.lasd;
 
 public class Board {
 
-    Square squares[];
+    DoNothingSquare doNothingSquares[];
 
 	public Board(int numberOfSquares) {
-		squares = new Square[numberOfSquares];
-		for(int i = 0; i < squares.length; ++i) {
-			squares[i] = new Square(i+1);
+		doNothingSquares = new DoNothingSquare[numberOfSquares];
+		for(int i = 0; i < doNothingSquares.length; ++i) {
+			doNothingSquares[i] = new DoNothingSquare(i+1);
 		}
 	}
 	
-	public Square calculateNextSquare(int diceTotal, Square currentSquare) {
-		return squares[ ( currentSquare.getCurrentPosition() + diceTotal - 1) % squares.length ];
+	public DoNothingSquare calculateNextSquare(int diceTotal, DoNothingSquare currentDoNothingSquare) {
+		return doNothingSquares[ ( currentDoNothingSquare.getCurrentPosition() + diceTotal - 1) % doNothingSquares.length ];
 	}
 
 

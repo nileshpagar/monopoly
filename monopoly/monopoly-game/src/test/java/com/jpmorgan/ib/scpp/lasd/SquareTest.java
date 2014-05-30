@@ -9,11 +9,11 @@ import org.junit.Test;
 public class SquareTest {
 
 	private static final int ARBITRARY_SQUARE_POSITION = 1;
-	Square testObj; 
+	DoNothingSquare testObj;
 	
 	@Before
 	public void setup(){
-		testObj = new Square(ARBITRARY_SQUARE_POSITION); 
+		testObj = new DoNothingSquare(ARBITRARY_SQUARE_POSITION);
 	}
 	
 	@Test

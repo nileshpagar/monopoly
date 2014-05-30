@@ -26,9 +26,9 @@ public class PlayerTest{
 
     @Test
     public void takeTurn_changesCurrentSquare(){
-        int firstPosition = testObj.getCurrentSquare().getCurrentPosition();
+        int firstPosition = testObj.getCurrentDoNothingSquare().getCurrentPosition();
         testObj.takeTurn();
-        int nextPosition = testObj.getCurrentSquare().getCurrentPosition();
+        int nextPosition = testObj.getCurrentDoNothingSquare().getCurrentPosition();
 
         assertNotEquals(firstPosition, nextPosition);
     }

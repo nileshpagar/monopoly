@@ -6,27 +6,27 @@ public class Player {
     Die die1;
     Die die2;
     Board board;
-    Square currentSquare;
+    DoNothingSquare currentDoNothingSquare;
 	int numberOfTurnsTaken;
 
     public Player(String playerId) {
         this.id = playerId;
-        this.currentSquare=new Square(1);
+        this.currentDoNothingSquare =new DoNothingSquare(1);
     }
 
     public String getId() {
         return id;
     }
 
-    public Square getCurrentSquare() {
-        return currentSquare;
+    public DoNothingSquare getCurrentDoNothingSquare() {
+        return currentDoNothingSquare;
     }
 
     public void takeTurn() {
         die1.roll();
         die2.roll();
         int diceTotal = calculateDiceTotal(die1.getFaceValue(),die2.getFaceValue());
-        currentSquare = board.calculateNextSquare(diceTotal,currentSquare);
+        currentDoNothingSquare = board.calculateNextSquare(diceTotal, currentDoNothingSquare);
         numberOfTurnsTaken++;
     }
 

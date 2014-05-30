@@ -17,18 +17,18 @@ public class BoardTest {
 	
 	@Test
 	public void initialize() {
-		assertEquals(TOTAL_SQUARES, testObj.squares.length);
+		assertEquals(TOTAL_SQUARES, testObj.doNothingSquares.length);
 	}
 	
 	@Test
 	public void calculateNextSquare_WhenDieRolled(){
 		int currentSquarePosition = 1;
-		Square currentSquare = new Square(currentSquarePosition);
+		DoNothingSquare currentDoNothingSquare = new DoNothingSquare(currentSquarePosition);
 		int diceTotal = 2;
 		
-		int nextSquarePosition = testObj.calculateNextSquare(diceTotal, currentSquare).getCurrentPosition();
+		int nextSquarePosition = testObj.calculateNextSquare(diceTotal, currentDoNothingSquare).getCurrentPosition();
 		
-		assertEquals(currentSquarePosition + diceTotal, 
+		assertEquals(currentSquarePosition + diceTotal,
 						nextSquarePosition );
 	}
 	
@@ -37,9 +37,9 @@ public class BoardTest {
         int currentSquarePosition = 37;
         int diceTotal = 5;
 
-        Square currentSquare = new Square(currentSquarePosition);
+        DoNothingSquare currentDoNothingSquare = new DoNothingSquare(currentSquarePosition);
 
-        int nextSquarePosition = testObj.calculateNextSquare(diceTotal, currentSquare).getCurrentPosition();
+        int nextSquarePosition = testObj.calculateNextSquare(diceTotal, currentDoNothingSquare).getCurrentPosition();
 
         assertEquals((currentSquarePosition + diceTotal) % TOTAL_SQUARES,
                 nextSquarePosition );

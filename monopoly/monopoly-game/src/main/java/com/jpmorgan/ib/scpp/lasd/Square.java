@@ -1,19 +1,7 @@
 package com.jpmorgan.ib.scpp.lasd;
 
-public class Square {
-	
-	int currentPosition;
+public interface Square {
+    void landsOn(Player player);
 
-	public Square(int currentPosition) {
-		this.currentPosition = currentPosition;
-	}
-
-	public int getCurrentPosition() {
-		return currentPosition;
-	}
-	
-	public Player landsOn(Player player){
-		return player;
-	}
-
+    int getCurrentPosition();
 }
