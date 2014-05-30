@@ -4,7 +4,6 @@ import java.util.Random;
 
 public class Die {
 
-
     public static final int MIN_FACEVALUE = 1;
     public static final int MAX_FACEVALUE = 6;
     private Random random = new Random();
