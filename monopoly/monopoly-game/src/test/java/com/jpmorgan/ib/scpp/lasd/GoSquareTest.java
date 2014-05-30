@@ -14,11 +14,11 @@ public class GoSquareTest {
 
         Player player = new Player("ARBITRARY_PLAYER_ID");
         player.setCurrentSquare(new DoNothingSquare(0));
-        int currentCash = player.getCash();
+        int currentCash = player.getCurrentCash();
         Square currentSquare = player.currentSquare;
         testObject.landsOn(player);
 
-        assertEquals(currentCash + GoSquare.CASH_ON_SQUARE, player.getCash());
+        assertEquals(currentCash + GoSquare.CASH_ON_SQUARE, player.getCurrentCash());
         assertEquals(currentSquare.getPosition() + GoSquare.GO_SQUARE_POSITION, player.getCurrentSquare().getPosition());
 
     }

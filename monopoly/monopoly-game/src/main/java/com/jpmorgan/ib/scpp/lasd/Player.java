@@ -26,6 +26,10 @@ public class Player {
         this.currentSquare = currentSquare;
     }
 
+    public void setCurrentCash(int currentCash) {
+        this.currentCash = currentCash;
+    }
+
     public void takeTurn() {
         die1.roll();
         die2.roll();
@@ -50,7 +54,7 @@ public class Player {
         this.board = board;
     }
 
-    public int getCash() {
+    public int getCurrentCash() {
         return currentCash;
     }
 }
