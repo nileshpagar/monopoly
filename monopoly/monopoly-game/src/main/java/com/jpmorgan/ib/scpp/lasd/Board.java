@@ -20,10 +20,10 @@ public class Board {
 			case 5:
 				squares[i] = new IncomeTaxSquare();
 				break;
-			case 10:
+			case 11:
 				squares[i] = new JailSquare(10);
 				break;
-			case 30:
+			case 31:
 				squares[i] = new GotoJailSquare(30);
 				break;
 			default:

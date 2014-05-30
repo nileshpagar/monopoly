@@ -22,16 +22,16 @@ public class BoardTest {
 		for(int i = 0; i < testObj.squares.length; ++i) {
 			Square square = testObj.squares[i];
 			switch(i+1) {
-			case 0:
+			case 1:
 				Assert.assertEquals(GoSquare.class, square.getClass() );
 				break;
 			case 5:
-				Assert.assertEquals(GoSquare.class, square.getClass() );
+				Assert.assertEquals(IncomeTaxSquare.class, square.getClass() );
 				break;
-			case 10:
+			case 11:
 				Assert.assertEquals(JailSquare.class, square.getClass() );
 				break;
-			case 30:
+			case 31:
 				Assert.assertEquals(GotoJailSquare.class, square.getClass() );
 				break;
 			default:
