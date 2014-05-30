@@ -31,8 +31,8 @@ public class MonopolyGame {
 	
 	protected void playRound() {
 		for (int i = 0; i < numberOfRounds; i++) {
-			for (int j = 0; j < players.size(); j++) {
-				players.get(j).takeTurn();
+			for (Player player : players) {
+				player.takeTurn();
 			}
 		}
 		isGameOver = true;
