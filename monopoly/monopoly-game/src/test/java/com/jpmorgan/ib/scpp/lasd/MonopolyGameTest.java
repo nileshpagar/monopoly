@@ -5,6 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 
 public class MonopolyGameTest {
@@ -21,6 +22,7 @@ public class MonopolyGameTest {
 	@Test
 	public void playGame_whenHaving3Rounds2Players_gameInitialized() {
 		testObject.playGame(NUMBER_OF_PLAYERS, NUMBER_OF_ROUNDS);
+
 		assertEquals(NUMBER_OF_PLAYERS, testObject.players.size());
 		assertEquals(NUMBER_OF_ROUNDS, testObject.numberOfRounds);
 		assertNotNull(testObject.board);
@@ -29,12 +31,14 @@ public class MonopolyGameTest {
 	@Test
 	public void playGame_whenHaving3Rounds2Players_roundsCompleted() {
 		testObject.playGame(NUMBER_OF_PLAYERS, NUMBER_OF_ROUNDS);
+
 		assertEquals(NUMBER_OF_ROUNDS, testObject.roundsCompleted);
 	}
 	
 	@Test
 	public void playGame_whenHaving3Rounds2Players_currentRoundIsEqualToNumberOfRoundsAndEveryPlayerHasTakenTurn() {
 		testObject.playGame(NUMBER_OF_PLAYERS, NUMBER_OF_ROUNDS);
+
 		assertEquals(NUMBER_OF_ROUNDS, testObject.currentRound);
 		for (Player player : testObject.players) {
 			assertEquals(NUMBER_OF_ROUNDS, player.numberOfTurnsTaken);
@@ -45,6 +49,6 @@ public class MonopolyGameTest {
 	@Test
 	public void playGame_whenHaving3Rounds2Players_isGameOver() {
 		testObject.playGame(NUMBER_OF_PLAYERS, NUMBER_OF_ROUNDS);
-		assertEquals(true, testObject.isGameOver);
+		assertTrue(testObject.isGameOver);
 	}
 }

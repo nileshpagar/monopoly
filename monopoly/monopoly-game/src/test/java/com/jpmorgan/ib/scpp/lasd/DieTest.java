@@ -31,9 +31,10 @@ public class DieTest {
             testObj.roll();
             totalRolls[testObj.getFaceValue()-1] =  totalRolls[testObj.getFaceValue()-1] +1;
         }
+        double delta = 0.01;
         for (int counter = 0; counter < Die.MAX_FACEVALUE; counter++) {
             assertEquals(totalRollCount/Die.MAX_FACEVALUE,
-                    totalRolls[counter],totalRollCount/Die.MAX_FACEVALUE*0.1);
+                    totalRolls[counter],totalRollCount/Die.MAX_FACEVALUE*delta);
         }
     }
 
