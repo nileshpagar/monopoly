@@ -3,7 +3,7 @@ package com.jpmorgan.ib.scpp.lasd;
 public class IncomeTaxSquare implements Square{
 
 
-    public static final int GO_SQUARE_POSITION =4;
+    public static final int SQUARE_POSITION =4;
 
     public static final int MAX_CASH_ON_SQUARE = 200;
 
@@ -33,7 +33,7 @@ public class IncomeTaxSquare implements Square{
 
     @Override
     public int getPosition() {
-        return GO_SQUARE_POSITION;
+        return SQUARE_POSITION;
     }
 
 }

@@ -1,24 +1,37 @@
 package com.jpmorgan.ib.scpp.lasd;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
 public class IncomeTaxSquareTest {
+
+    IncomeTaxSquare testObject;
+
+    @Before
+    public void setUp(){
+        testObject = new IncomeTaxSquare();
+    }
+    @Test
+    public void initialize(){
+
+        assertEquals(IncomeTaxSquare.SQUARE_POSITION, testObject.getPosition());
+    }
+
     @Test
     public void landOn_whenPlayerOnIncomeTaxSquare_getCash(){
-        IncomeTaxSquare testObject = new IncomeTaxSquare();
-
-        assertEquals(GoSquare.GO_SQUARE_POSITION,testObject.getPosition());
 
         Player player = new Player("ARBITRARY_PLAYER_ID");
+        player.setCurrentCash(1500);
         player.setCurrentSquare(new DoNothingSquare(0));
         int currentCash = player.getCurrentCash();
         Square currentSquare = player.currentSquare;
         testObject.landsOn(player);
 
-        assertEquals(currentCash + GoSquare.CASH_ON_SQUARE, player.getCurrentCash());
-        assertEquals(currentSquare.getPosition() + GoSquare.GO_SQUARE_POSITION, player.getCurrentSquare().getPosition());
+        int cashAfterTaxDeduct = 1350;
+        assertEquals(cashAfterTaxDeduct, player.getCurrentCash());
+        assertEquals(IncomeTaxSquare.SQUARE_POSITION, player.getCurrentSquare().getPosition());
 
     }
 }

@@ -3,7 +3,7 @@ package com.jpmorgan.ib.scpp.lasd;
 public class GoSquare implements Square {
 
 
-    public static final int GO_SQUARE_POSITION =1;
+    public static final int SQUARE_POSITION =1;
 
     public static final int CASH_ON_SQUARE = 200;
 
@@ -15,6 +15,6 @@ public class GoSquare implements Square {
 
     @Override
     public int getPosition() {
-        return GO_SQUARE_POSITION;
+        return SQUARE_POSITION;
     }
 }

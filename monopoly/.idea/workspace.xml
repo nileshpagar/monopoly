@@ -26,36 +26,70 @@
       <file leaf-file-name="GoSquareTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/GoSquareTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="139" max-vertical-offset="510">
-              <caret line="22" column="0" selection-start-line="10" selection-start-column="8" selection-end-line="22" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="660">
+              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IncomeTaxSquareTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PlayerTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/PlayerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="645">
+              <caret line="17" column="5" selection-start-line="12" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GotoJailSquareTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/GotoJailSquareTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IncomeTaxSquareTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/IncomeTaxSquareTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="79" max-vertical-offset="450">
-              <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.5439189" vertical-offset="79" max-vertical-offset="645">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IncomeTaxSquare.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="IncomeTaxSquare.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/monopoly-game/src/main/java/com/jpmorgan/ib/scpp/lasd/IncomeTaxSquare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6081081" vertical-offset="0" max-vertical-offset="690">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="690">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
-                <element signature="e#845#846#0" expanded="true" />
-                <element signature="e#886#887#0" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
+                <element signature="e#880#881#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GotoJailSquare.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/monopoly-game/src/main/java/com/jpmorgan/ib/scpp/lasd/GotoJailSquare.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,15 +126,16 @@
         <option value="$PROJECT_DIR$/monopoly-game/src/main/java/com/jpmorgan/ib/scpp/lasd/Board.java" />
         <option value="$PROJECT_DIR$/monopoly-game/src/main/java/com/jpmorgan/ib/scpp/lasd/GoSquare.java" />
         <option value="$PROJECT_DIR$/monopoly-game/src/main/java/com/jpmorgan/ib/scpp/lasd/DoNothingSquare.java" />
-        <option value="$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/GoSquareTest.java" />
         <option value="$PROJECT_DIR$/monopoly-game/src/main/java/com/jpmorgan/ib/scpp/lasd/MonopolyGame.java" />
         <option value="$PROJECT_DIR$/monopoly-game/src/main/java/com/jpmorgan/ib/scpp/lasd/Player.java" />
         <option value="$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/PlayerTest.java" />
         <option value="$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/SquareTest.java" />
         <option value="$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/doNothingSquareTest.java" />
         <option value="$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/oNothingSquareTest.java" />
-        <option value="$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/IncomeTaxSquareTest.java" />
         <option value="$PROJECT_DIR$/monopoly-game/src/main/java/com/jpmorgan/ib/scpp/lasd/IncomeTaxSquare.java" />
+        <option value="$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/GotoJailSquareTest.java" />
+        <option value="$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/GoSquareTest.java" />
+        <option value="$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/IncomeTaxSquareTest.java" />
       </list>
     </option>
   </component>
@@ -361,55 +396,7 @@
       <recent name="com.jpmorgan.ib.scpp.lasd" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GoSquareTest.landOn_whenPlayerOnGoSquare_getCash">
-    <configuration default="false" name="PlayerTest.takeTurn_changesCurrentSquare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="monopoly-game" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.jpmorgan.ib.scpp.lasd" />
-      <option name="MAIN_CLASS_NAME" value="com.jpmorgan.ib.scpp.lasd.PlayerTest" />
-      <option name="METHOD_NAME" value="takeTurn_changesCurrentSquare" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper RunnerId="Debug" />
-      <method />
-    </configuration>
-    <configuration default="false" name="BoardTest.initialize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="monopoly-game" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.jpmorgan.ib.scpp.lasd" />
-      <option name="MAIN_CLASS_NAME" value="com.jpmorgan.ib.scpp.lasd.BoardTest" />
-      <option name="METHOD_NAME" value="initialize" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.IncomeTaxSquareTest.initialize">
     <configuration default="false" name="BoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="monopoly-game" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -465,6 +452,50 @@
       <option name="PACKAGE_NAME" value="com.jpmorgan.ib.scpp.lasd" />
       <option name="MAIN_CLASS_NAME" value="com.jpmorgan.ib.scpp.lasd.GoSquareTest" />
       <option name="METHOD_NAME" value="landOn_whenPlayerOnGoSquare_getCash" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="IncomeTaxSquareTest.landOn_whenPlayerOnIncomeTaxSquare_getCash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="monopoly-game" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.jpmorgan.ib.scpp.lasd" />
+      <option name="MAIN_CLASS_NAME" value="com.jpmorgan.ib.scpp.lasd.IncomeTaxSquareTest" />
+      <option name="METHOD_NAME" value="landOn_whenPlayerOnIncomeTaxSquare_getCash" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="IncomeTaxSquareTest.initialize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="monopoly-game" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.jpmorgan.ib.scpp.lasd" />
+      <option name="MAIN_CLASS_NAME" value="com.jpmorgan.ib.scpp.lasd.IncomeTaxSquareTest" />
+      <option name="METHOD_NAME" value="initialize" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -610,19 +641,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.PlayerTest.takeTurn_changesCurrentSquare" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BoardTest.initialize" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BoardTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BoardTest.calculateNextSquare_WhenStepOverflows_ShouldGoBackToBeginning" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.GoSquareTest.landOn_whenPlayerOnGoSquare_getCash" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BoardTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BoardTest.calculateNextSquare_WhenStepOverflows_ShouldGoBackToBeginning" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.GoSquareTest.landOn_whenPlayerOnGoSquare_getCash" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.IncomeTaxSquareTest.landOn_whenPlayerOnIncomeTaxSquare_getCash" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.IncomeTaxSquareTest.initialize" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.GoSquareTest.landOn_whenPlayerOnGoSquare_getCash" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BoardTest.calculateNextSquare_WhenStepOverflows_ShouldGoBackToBeginning" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BoardTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BoardTest.initialize" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PlayerTest.takeTurn_changesCurrentSquare" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.IncomeTaxSquareTest.initialize" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GoSquareTest.landOn_whenPlayerOnGoSquare_getCash" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.IncomeTaxSquareTest.landOn_whenPlayerOnIncomeTaxSquare_getCash" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BoardTest.calculateNextSquare_WhenStepOverflows_ShouldGoBackToBeginning" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BoardTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -663,7 +694,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27504554" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -759,16 +790,16 @@
             <element signature="e#508#509#0" expanded="true" />
             <element signature="e#559#560#0" expanded="true" />
             <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1045#1046#0" expanded="true" />
-            <element signature="e#1076#1077#0" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1184#1185#0" expanded="true" />
-            <element signature="e#1218#1219#0" expanded="true" />
-            <element signature="e#1253#1254#0" expanded="true" />
-            <element signature="e#1287#1288#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+            <element signature="e#1150#1151#0" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+            <element signature="e#1217#1218#0" expanded="true" />
+            <element signature="e#1248#1249#0" expanded="true" />
+            <element signature="e#1289#1290#0" expanded="true" />
+            <element signature="e#1323#1324#0" expanded="true" />
+            <element signature="e#1358#1359#0" expanded="true" />
+            <element signature="e#1392#1393#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -958,16 +989,16 @@
             <element signature="e#508#509#0" expanded="true" />
             <element signature="e#559#560#0" expanded="true" />
             <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1045#1046#0" expanded="true" />
-            <element signature="e#1076#1077#0" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1184#1185#0" expanded="true" />
-            <element signature="e#1218#1219#0" expanded="true" />
-            <element signature="e#1253#1254#0" expanded="true" />
-            <element signature="e#1287#1288#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+            <element signature="e#1150#1151#0" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+            <element signature="e#1217#1218#0" expanded="true" />
+            <element signature="e#1248#1249#0" expanded="true" />
+            <element signature="e#1289#1290#0" expanded="true" />
+            <element signature="e#1323#1324#0" expanded="true" />
+            <element signature="e#1358#1359#0" expanded="true" />
+            <element signature="e#1392#1393#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -985,14 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/PlayerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="645">
-          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/DoNothingSquareTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
@@ -1006,26 +1029,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/GoSquareTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="139" max-vertical-offset="510">
-          <caret line="22" column="0" selection-start-line="10" selection-start-column="8" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/IncomeTaxSquareTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="79" max-vertical-offset="450">
-          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/monopoly-game/src/main/java/com/jpmorgan/ib/scpp/lasd/GoSquare.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
@@ -1034,13 +1037,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/monopoly-game/src/main/java/com/jpmorgan/ib/scpp/lasd/GotoJailSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="645">
+          <caret line="17" column="5" selection-start-line="12" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/GotoJailSquareTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/monopoly-game/src/main/java/com/jpmorgan/ib/scpp/lasd/IncomeTaxSquare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6081081" vertical-offset="0" max-vertical-offset="690">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="690">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
-            <element signature="e#845#846#0" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/GoSquareTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="660">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monopoly-game/src/test/java/com/jpmorgan/ib/scpp/lasd/IncomeTaxSquareTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5439189" vertical-offset="79" max-vertical-offset="645">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
           </folding>
         </state>
       </provider>
