@@ -6,7 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 
-public class SquareTest {
+public class DoNothingSquareTest {
 
 	private static final int ARBITRARY_SQUARE_POSITION = 1;
 	DoNothingSquare testObj;
